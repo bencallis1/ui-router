@@ -1,6 +1,67 @@
-<div class="container view-container">
+<div class="container view-container" style="display: flex;flex-direction: column;">
 
- <h1>Hello from the projects view</h1>
-<h2> We should pull these in dynamically </h2>
+<!--Here is a list of all the projects and when we click on a specific project I want to open the project details
+page. We can do this with by grabbing the state params-->
+
+ <div class="row">
+  <div class="col s12 m6">
+   <div class="card blue-grey darken-1">
+    <div class="card-content white-text">
+     <span class="card-title">Project title</span>
+     <h1>Project 1</h1>
+    </div>
+    <div class="card-action">
+     <a ui-sref="details({id:'1'})">Details</a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="col s12 m6">
+   <div class="card blue-grey darken-1">
+    <div class="card-content white-text">
+     <span class="card-title">Project title</span>
+     <h1>Project 2</h1>
+    </div>
+    <div class="card-action">
+     <a ui-sref="details({id:'2'})">Details</a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="col s12 m6">
+   <div class="card blue-grey darken-1">
+    <div class="card-content white-text">
+     <span class="card-title">Project title</span>
+     <h1>Project 3</h1>
+    </div>
+    <div class="card-action">
+     <a ui-sref="details({id:'3'})">Details</a>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col s12 m6">
+   <div class="card blue-grey darken-1">
+    <div class="card-content white-text">
+     <span class="card-title">Project title</span>
+     <h1>Project 4</h1>
+    </div>
+    <div class="card-action">
+     <a ui-sref="details({id:'4'})">Details</a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+
+
+ <h1>{{test}}</h1>
+<button style="color:black; padding: 20px;" ui-sref="projects({id:'recent'})">Get Recent Projects</button>
+
 
 </div>

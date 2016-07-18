@@ -1,9 +1,5 @@
 {
-  "products" : {
-    "-KKzNj9g79PFYUesdVcc" : {
-      "genre" : "Pop",
-      "name" : "Adele"
-    }
-
-  }
+  "url":"someURL",
+  "name": "project 1",
+  "desc": "some description about the projects"
 }
